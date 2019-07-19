@@ -1,0 +1,17 @@
+{
+  "name": "@ctsy/data-service",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/**/*.js",
+    "dist/**/*.ts",
+    "README.md"
+  ],
+  "repository": "https://github.com/c-tsy/data-service",
+  "author": "castleiMac <castle@tansuyun.cn>",
+  "license": "MIT",
+  "dependencies": {
+    "@ctsy/request": "^1.0.9"
+  }
+}
