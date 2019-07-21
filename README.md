@@ -135,17 +135,23 @@ const service = new Service("accessToken","secertToken")
     let rs2 = await service.Company.info("xlTM-TogKuTwq012ppM3hHJjhJ4BpjVQbQmd")
     /**
      * {
-		"BDID": "633225758307",
 		"RegistID": "915107033094969216",
 		"UnitID": "30949692-1",
+		"TaxID": "915107033094969216",
 		"Person": "鄢鹏权",
 		"Status": "开业",
 		"Start": "2014-06-23",
 		"End": "2014-06-23 至 无固定期限",
-		"Judge": "2019-04-09",
+		"Judage": "2019-04-09",
 		"Money": "3万(元)",
 		"Type": "有限责任公司(自然人投资或控股)",
-		"UnitType": "企业法人"
+		"UnitType": "企业法人",
+		"Industry": "科技推广和应用服务业",
+		"Area": "四川省",
+		"Phone": "189****1742",
+		"Registration": "绵阳市工商行政管理局",
+		"Address": "四川省绵阳市经开区贾家店街89号（托管企业）",
+		"Range": "软件开发、销售及平面设计；系统集成；硬件及耗材的租赁、销售；网络技术咨询服务；信息化平台销售及提供相关方案和服务。(依法须经批准的项目，经相关部门批准后方可开展经营活动)"
 	}
      * */
 })()

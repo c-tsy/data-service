@@ -2,7 +2,38 @@
  * 企业信息详情
  */
 interface CompanyInfo {
-    BDID: string;
+    /**
+     * 税号
+     */
+    TaxID: string;
+    /**
+     * 审核/年检时间
+     */
+    Judage: string;
+    /**
+     * 所属行业
+     */
+    Industry: string;
+    /**
+     * 行政区划
+     */
+    Area: string;
+    /**
+     * 电话
+     */
+    Phone: string;
+    /**
+     * 登记机关
+     */
+    Registration: string;
+    /**
+     * 经营地址
+     */
+    Address: string;
+    /**
+     * 经营范围
+     */
+    Range: string;
     /**
      * 营业执照号、注册号
      */
