@@ -84,7 +84,7 @@ exports.GPS = GPS;
 var Company = (function (_super) {
     __extends(Company, _super);
     function Company(ak, sk) {
-        return _super.call(this, 'Compnay', ak, sk) || this;
+        return _super.call(this, 'Company', ak, sk) || this;
     }
     Company.prototype.search = function (Keyword) {
         return __awaiter(this, void 0, void 0, function () {

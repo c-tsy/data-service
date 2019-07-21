@@ -34,7 +34,7 @@ export class GPS extends Base {
  */
 export class Company extends Base {
     constructor(ak: string, sk: string) {
-        super('Compnay', ak, sk);
+        super('Company', ak, sk);
     }
     /**
      * 模糊搜索查询企业
