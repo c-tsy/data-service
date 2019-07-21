@@ -1,6 +1,6 @@
 {
   "name": "@ctsy/data-service",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
@@ -12,6 +12,6 @@
   "author": "castleiMac <castle@tansuyun.cn>",
   "license": "MIT",
   "dependencies": {
-    "@ctsy/request": "^1.0.9"
+    "@ctsy/request": "~1.0.9"
   }
 }
