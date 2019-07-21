@@ -55,6 +55,7 @@ var Base = (function (_super) {
         var _this = _super.call(this, name) || this;
         _this.ak = "";
         _this.sk = "";
+        _this.host = "https://data.tansuyun.cn/";
         _this.ak = ak;
         _this.sk = sk;
         return _this;

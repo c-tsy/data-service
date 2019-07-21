@@ -3,6 +3,7 @@ import { GPS_ByName, CompanySearchReault, CompanyInfo } from './iface';
 export class Base extends BaseController {
     ak: string = "";
     sk: string = "";
+    host: string = "https://data.tansuyun.cn/"
     constructor(name: string, ak: string, sk: string) {
         super(name)
         this.ak = ak;

@@ -7,7 +7,7 @@
   resolved "https://registry.yarnpkg.com/@ctsy/hook/-/hook-0.0.4.tgz#8c306cbb1d923e473672c643a869c9bd55eeb83a"
   integrity sha512-Fs/9e9O3/MWSvlRdTpqZsvBu3F3i2mrhBMl5bdHGYcqHdY1UOimvb6yI3qiaLWUyd/nqRpex4ID0tmWlk52BLg==
 
-"@ctsy/request@^1.0.9":
+"@ctsy/request@~1.0.9":
   version "1.0.9"
   resolved "https://registry.yarnpkg.com/@ctsy/request/-/request-1.0.9.tgz#fb4d10b8ca0459ce38f78965001bf365b57f850c"
   integrity sha512-ORzoTB3e2vINVWnDLuum2oJnKl9Oe89KFYi34pyUWxp3Ly+1ahqxdDexZrYHhufPqATtWH0GNahv0eF9Daxtlw==
