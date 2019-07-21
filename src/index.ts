@@ -1,5 +1,5 @@
 import { BaseController } from '@ctsy/request';
-
+import { GPS_ByName, CompanySearchReault, CompanyInfo } from './iface';
 export class Base extends BaseController {
     ak: string = "";
     sk: string = "";

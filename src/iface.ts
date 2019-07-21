@@ -1,7 +1,7 @@
 /**
  * 企业信息详情
  */
-interface CompanyInfo {
+export class CompanyInfo {
     /**
      * 税号
      */
@@ -78,7 +78,7 @@ interface CompanyInfo {
 /**
  * 企业信息搜索结果
  */
-interface CompanySearchReault {
+export class CompanySearchReault {
     /**
      * 企业PID，全局唯一
      */
@@ -95,7 +95,7 @@ interface CompanySearchReault {
 /**
  * GPS请求通过名称查询
  */
-interface GPS_ByName {
+export class GPS_ByName {
     acc_flag: number;
     addr: string;
     address_norm: string;
@@ -148,11 +148,11 @@ interface GPS_ByName {
     y: number;
 }
 
-interface Extdisplay {
+export class Extdisplay {
     display_info: Displayinfo;
 }
 
-interface Displayinfo {
+export class Displayinfo {
     impression_tag: Displayinfocommentlabel;
     redu: string;
     source_map: any[];
@@ -160,12 +160,12 @@ interface Displayinfo {
     uids: string[];
 }
 
-interface Ext {
+export class Ext {
     detail_info: Detailinfo;
     src_name: string;
 }
 
-interface Detailinfo {
+export class Detailinfo {
     areaid: string;
     display_info_comment_label: Displayinfocommentlabel;
     display_info_redu: string;
@@ -187,38 +187,38 @@ interface Detailinfo {
     vs_content: Vscontent;
 }
 
-interface Vscontent {
+export class Vscontent {
     invisible: Invisible;
 }
 
-interface Invisible {
+export class Invisible {
     bigdata: Bigdata;
 }
 
-interface Bigdata {
+export class Bigdata {
     showtag: string;
 }
 
-interface Point {
+export class Point {
     x: number;
     y: number;
 }
 
-interface Phonerisk {
+export class Phonerisk {
     bid: string;
     word: string;
 }
 
-interface Mbc {
+export class Mbc {
     markv: string;
 }
 
-interface Displayinfocommentlabel {
+export class Displayinfocommentlabel {
     hotel: string;
     life: string;
 }
 
-interface Admininfo {
+export class Admininfo {
     area_id: number;
     area_name: string;
     city_id: number;
